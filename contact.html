@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactus</title>
+      <!--Link CSS File-->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="collection.css">
+  
+      
+      <!--Link Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  
+      <!--Link Font Awesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <!--Talwind Css CDN LINK-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <!--Offer-->
+
+    <div class="offer-bar">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order
+            <i id="offer-close" style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i>
+        </p>
+    </div>
+
+    <!--Navigation 1-->
+    <nav class="navbar">
+        <h1 class="text-4xl font-bold">Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link  text-2xl"style="font-size: 20px;"><a href="index.html">Home</a></p>
+            <p class="navbar-link text-2xl"style="font-size: 20px;"><a href="#new-arrival">New Arrival</a></p>
+            <p class="navbar-link  text-2xl"style="font-size: 20px;"><a href="#most-wanted">Most Wanted</a></p>
+            <p class="navbar-link  text-2xl"style="font-size: 20px;"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link  text-2xl"style="font-size: 20px;"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+
+        <div class="navbar-menu-toggle">
+            <i id="side-navbar-activate" class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Navbar-->
+
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+
+            <p class="side-navbar-link"><a href="./index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="#new-arrival">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="#most-wanted">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="./collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="./contact.html">Contact Us</a></p>
+        </div>
+        <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </div>
+    <!-- component -->
+<div class="flex items-center justify-center p-12">
+    <!-- Author: FormBold Team -->
+    <!-- Learn More: https://formbold.com -->
+    <div class="mx-auto w-full max-w-[550px]">
+      <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <div class="mb-5">
+          <label
+            for="name"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Full Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="email"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Email Address
+          </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@domain.com"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="subject"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Subject
+          </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter your subject"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="message"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Message
+          </label>
+          <textarea
+            rows="4"
+            name="message"
+            id="message"
+            placeholder="Type your message"
+            class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          ></textarea>
+        </div>
+        <div>
+          <button style="outline: none ;background:blue;color: white;border-radius: 10px; font-size: 30px; padding: 10px;">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+    
+</body>
+</html>
