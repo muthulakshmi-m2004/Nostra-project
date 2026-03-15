@@ -1,5 +1,5 @@
 # Nostra-project
-# Nostra-clone 👕🛍️
+
 
 A modern e-commerce web application inspired by the Nostra fashion platform.
 This project focuses on creating a clean UI, smooth user experience, and responsive design for online clothing shopping.
@@ -38,6 +38,6 @@ This project was built to:
 
 ---
 
-You van view my project through the link
+You van view my project through the link  https://muthulakshmi-m2004.github.io/Nostra-project/
 
 ject, consider giving it a star!
